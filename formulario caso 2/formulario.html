@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Encuesta</title>
+</head>
+<body>
+    <h1><CENter>Encuesta de satisfaccion de los asistentes de un evento</CENter></h1>
+    <form 
+    action="formulario.html"
+    method="get"
+    name="login"
+    id="login"
+    autocomplete="on"
+    >
+    <legend>CUESTIONARIO</legend>
+    <table>
+        <tr>
+            <td>
+                <label for="name">NOMBRE:</label>
+                <input type="text" placeholder="ingresar nombre" name="name1">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="Email">CORREO ELECTRONICO:</label>
+                <input type="text" placeholder="ingrese su correo electronioco" name="Email1">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="age">EDAD</label>
+                <input type="number" id="edad" name="ingrese su edad" min="0" max="150" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="event evaluation">EVALUACIÓN DEL EVENTO</label>
+                <select name="satisfaccion" id="satisfaccion">
+                    <option value="exelente">EXELENTE</option>
+                    <option value="bueno">BUENO</option>
+                    <option value="regular">REGULAR</option>
+                    <option value="malo">MALO</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="comentario">COMENTARIO:</label>
+                <textarea id="comentario" name="comentario" rows="4" cols="50" required></textarea>
+              
+                <button type="submit">Enviar</button>
+            </td>
+        </tr>
+    </table>
+</form>
+<link rel="stylesheet" href="ihttps://github.com/jose29aylin/for/blob/f5e161b9c7828a22d33a723f18fc0d0f8cade19b/index.html "></a>
+</body>
+</html>

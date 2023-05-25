@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>conferencia</title>
+    <h1>REGISTRO DE USUARIO PARA UNA CONFERENCIA</h1>
+</head>
+<body>
+   <form 
+   action="formulario.html"
+   method="get"
+   name="login"
+   autocomplete="on">
+    <legend>FORMULARIO</legend>
+    <table>
+        <tr>
+            <td>
+                <label for="nam">nombre:</label>
+                <input type="text" placeholder="nombre" name="nam1">
+            </td>
+        </tr>
+        <tr>
+                <td>
+                    <label for="Email">correo electrinico:</label>
+                    <input type="text" placeholder="correo electronico" name="Email1">
+                </td>
+        </tr>
+        <tr>
+                <td>
+                    <label for="occupation">Ocupacion:</label>
+                    <select name="ocupacion" id="ocupacion">
+                    <option value="maestro">MAESTRO</option>
+                    <option value="alumno">ALUMNO</option>
+                    <option value="director">DIRECTOR</option>
+                    <option value="empleado">EMPELADO</option>
+                    </select>
+                </td>
+        </tr>
+        <tr>
+            <td>
+                <select name="Talla" id="Talla">
+                    <option value="s">Talla S</option>
+                <option value="m">Talla M</option>
+                <option value="l">Talla L</option>
+                <option value="xl">Talla XL</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <select name="Preferencias dieteticas" id="Preferencias dieteticas">
+                    <option value="vegetariano">VEGETARIANO</option>
+                    <option value="vegano">VEGANO</option>
+                    <option value="sin gluten">SIN GLUTEN</option>
+                    <option value="sin restricciones">SIN RESTRICCIONES</option>
+                </select>
+            </td>
+        </tr>
+    </table>
+   <input type="submit" value="enviar">
+   </form>
+   <a href="">enlace</a>
+</body>
+</html>
